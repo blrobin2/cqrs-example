@@ -1,0 +1,21 @@
+{
+  "name": "CQRS-Example",
+  "version": "1.0.0",
+  "description": "Attempt at implementation of Greg Young's SimpleCQRS in JavaScript",
+  "main": "bin/app.js",
+  "scripts": {
+    "build": "ts-babel"
+  },
+  "keywords": [
+    "cqrs"
+  ],
+  "author": "Bennie Robinson",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/core-js": "^0.9.35",
+    "ts-babel": "^1.2.2"
+  },
+  "dependencies": {
+    "typescript": "^2.0.10"
+  }
+}
